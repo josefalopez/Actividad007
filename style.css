@@ -1,0 +1,11 @@
+.jumbotron {
+	background-image: url(./assets/images/bg.jpg);
+	color: white;
+}
+.card {
+	float: left;
+}
+.btn-light {
+	text-transform: uppercase;
+	border: 5px black;
+}
