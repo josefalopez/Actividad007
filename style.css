@@ -1,11 +1,38 @@
+.nav-item a {
+	color: gray;
+}
+.navbar-nav {
+	margin-left: auto;
+}
 .jumbotron {
 	background-image: url(./assets/images/bg.jpg);
+	background-size: cover;
 	color: white;
+	border-radius: 0;
 }
-.card {
+.card-deck .card {
 	float: left;
+	height: 330px;
+	margin-bottom: 30px;
+	border: 12px solid #dedede;
+	border-radius: 1.5rem;
+	overflow: hidden;
 }
 .btn-light {
 	text-transform: uppercase;
-	border: 5px black;
+	border: 1px solid #dedede;
+}
+footer {
+	border: 1px solid #dedede;
+}
+.fa-camera {
+	font-size: 180%;
+	margin: 12px;
+}
+.pageinfo {
+	font-size: 13px;
+	background-color: #ededed;
+	padding: 13px 0;
+	border: 1px solid #dedede;
+	box-sizing: border-box;
 }
